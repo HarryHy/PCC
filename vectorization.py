@@ -24,3 +24,4 @@ u = np.log(v)
 dw = np.zeros((n_x,1))
 # n_x by 1
 
+Z = np.dot(W.T,X) + b
