@@ -18,3 +18,9 @@ toc = time.time()
 
 print(c)
 print("For loop:" + str(1000*(toc - tic)) +"ms")
+
+u = np.exp(v)
+u = np.log(v)
+dw = np.zeros((n_x,1))
+# n_x by 1
+
