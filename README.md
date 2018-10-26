@@ -1,2 +1,2 @@
 # PCC
-Some notes about ML 
+This is some practice with python
