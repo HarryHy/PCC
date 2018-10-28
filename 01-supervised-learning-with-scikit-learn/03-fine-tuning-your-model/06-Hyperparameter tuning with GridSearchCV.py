@@ -19,6 +19,10 @@ logreg_cv.fit(X,y)
 print("Tuned Logistic Regression Parameters: {}".format(logreg_cv.best_params_)) 
 print("Best score is {}".format(logreg_cv.best_score_))
 
+<script.py> output:
+    Tuned Logistic Regression Parameters: {'C': 3.7275937203149381}
+    Best score is 0.7708333333333334
+
 '''
 Import LogisticRegression from sklearn.linear_model and GridSearchCV from sklearn.model_selection.
 Setup the hyperparameter grid by using c_space as the grid of values to tune C over.
